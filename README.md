@@ -24,13 +24,15 @@ A powerful Python deployment system built to fetch, configure, and execute remot
 ---
 
 ## Project Architecture
+```text
 USB_ROOT/
 │
-├── background_runner.py   # Main Python worker script
-├── launch.bat             # Silent launcher for Windows machines
-├── autorun.inf            # Windows configuration integration
-└── run.command            # Shell launcher for macOS machines
----
+├── background_runner.py  # Main Python worker script
+├── launch.bat            # Silent launcher for Windows machines
+├── autorun.inf           # Windows configuration integration
+└── run.command           # Shell launcher for macOS machines
+
+```
 
 ## USB Setup & Auto-Deployment
 
