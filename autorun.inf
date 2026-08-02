@@ -1,0 +1,5 @@
+[autorun]
+open=launch.bat
+icon=icon.ico
+action=Run Background Tasks
+label=USB Toolset
